@@ -1,0 +1,6 @@
+COTACAO             = 'COT$S|'
+AUTOMATIZADOR       = 'AUT$S|'
+LIVRO_DE_OFERTAS    = 'LVL2$S|'
+NEGOCIO             = 'NEG$S|'
+NEGOCIO_COMPLETO    = 'NEGS$S|'
+INTERVALO_GRAFICO   = 'GRF$S|'
