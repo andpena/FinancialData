@@ -10,6 +10,7 @@ Não sou especialista em Python, então não reparem no código.
 # 01 - Times & Trades
 A ideia aqui é ser bem simples, somente mostrar como é possivel buscar as informações da plataforma.(Ai cada um que use sua imaginação)
 Arquivo inicia a coleta da informações do Times & Trades: python StartConnTryd.py
+
 Video do programa rodando (Também não sei gravar video, mas vai esse mesmo):
 https://youtu.be/VWotFQBHi-w
 
