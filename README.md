@@ -1,4 +1,4 @@
-# Dados financeiros Historicos/Real Time
+# Dados financeiros Históricos/Real Time
 Esse projeto é para pessoas que não querem ficar preso nas plataformas com os serviços de RTD/DDE somente no Excel.
 Devido uma necessidade de analise de dados em tempo real resolvi criar um programa que conecta nesses serviços de RTD via SOCKET e com isso facilitou a anlise dos dados em Python, que antes era feita em Excel.
 
