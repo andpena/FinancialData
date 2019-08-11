@@ -18,7 +18,7 @@ Dependencias:
 https://pypi.org/project/colorama/
 pip install colorama
 
-## 02 - Book - Analtico/Fechado
+## 02 - Book - Analítico/Fechado
 Em desenvolvimento...!!!
 
 ## 03 - Cotações
