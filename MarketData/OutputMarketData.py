@@ -43,27 +43,4 @@ class OutputMarketData:
         print("\033[2;1H")
         print(strLayout) 
         
-        strLayout = ""      
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            # strVlr = ""
-            # strLayout += itens[0] + "                      |         "             
-            # print("\033[1;1H",strLayout)
-            # for y in range(len(itens)):
-            #     strVlr += " | " + itens[y+1]
-            # print( strVlr )
-
-            # print("\033[2;1H")    
-
-
-
+        strLayout = "" 
