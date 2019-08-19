@@ -18,8 +18,9 @@ Dependencias:
 https://pypi.org/project/colorama/
 pip install colorama
 
-## 02 - Book - Analítico/Fechado
-Em desenvolvimento...!!!
+## 02 - Monitor de Cotações
+Segue mais um modulo de captura das informações da plataforma Tryd.
+Arquivo inicia a coleta da informações do Monitor de Cotações: python StartConnMktTryd.py
 
-## 03 - Cotações
+## 03 - Book - Analítico/Fechado
 Em desenvolvimento...!!!
