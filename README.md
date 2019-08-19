@@ -22,5 +22,8 @@ pip install colorama
 Segue mais um modulo de captura das informações da plataforma Tryd.
 Arquivo inicia a coleta da informações do Monitor de Cotações: python StartConnMktTryd.py
 
+Video do programa rodando: 
+https://youtu.be/pYZuiiYTlTQ
+
 ## 03 - Book - Analítico/Fechado
 Em desenvolvimento...!!!
