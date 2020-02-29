@@ -27,3 +27,4 @@ https://youtu.be/pYZuiiYTlTQ
 
 ## 03 - Book - Analítico/Fechado
 Em desenvolvimento...!!!
+Coloquei um exemplo na branch POC-Book. Ainda não está completa, mas traz a primeira linha do book.
