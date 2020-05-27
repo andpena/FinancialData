@@ -10,7 +10,7 @@ from TimesAndTrades.OutputTimesTrades import OutputTimesTrades
 # INDQ19 - Indice Bovespa
 # WINQ19 - Mini Indice Bovespa
 #========================================#
-ATIVO = 'WINQ19'
+ATIVO = 'WINM20'
 #========================================#
 
 #---INFORMACOES DO SERVIDOR--------------#
@@ -33,11 +33,22 @@ try:
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         s.connect((HOST, PORT))
         print("Id da thread principal %d" % (win32api.GetCurrentThreadId()))
+        data = b''
         while True:
             try:
                 s.sendall(ByteConvert(tdt.NEGOCIO_COMPLETO) )
-                data = s.recv(32768)
-                ott.OutputData(data.decode())		
+                
+                # Evita perdas de negócios quando a transmissão pelo socket ultrapassa 8192 caracteres 
+                # ------------------------------------------------------------------------------------
+                chunk = s.recv(8192)
+                if len(chunk) >= 8192:
+                    data = data + chunk
+                else:
+                    data = data + chunk
+                    ott.OutputData(data.decode())
+                    data = b''
+               # --------------------------------------------------------------------------------------
+            
             except Exception as ex:
                 print(ex)
             
