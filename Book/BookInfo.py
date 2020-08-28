@@ -37,7 +37,7 @@ def str_cotacao(ativo, tipo_book, linha_book, coluna):
     #"LVL2$S|tipo_book|ativo|linha_book|coluna#"
     #"LVL2$S|0|DOLU20|0|2#" - Nesse exemplo estou buscando o Livro de Ofertas Analítico do Dolar, solicitando 
     # a (1º) primeira linha do Book e a coluna de compra que nesse caso é o 2  
-    return "LVL2$S|"+tipo_book+"|"+ativo+"|"+linha_book+"|"+coluna+"#"
+    return ByteConvert("LVL2$S|"+tipo_book+"|"+ativo+"|"+linha_book+"|"+coluna+"#")
  
 
 try:
@@ -47,7 +47,7 @@ try:
         while True:
             try:
                 cmd_str = str_cotacao(ATIVO, "0", "0", "2")
-                s.sendall(ByteConvert(cmd_str) )
+                s.sendall(cmd_str)
                 # Evita perdas de negócios quando a transmissão pelo socket ultrapassa 8192 caracteres 
                 # ------------------------------------------------------------------------------------
                 rec = s.recv(8192)
