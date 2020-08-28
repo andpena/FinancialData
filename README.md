@@ -28,3 +28,6 @@ https://youtu.be/pYZuiiYTlTQ
 ## 03 - Book - Analítico/Fechado
 Em desenvolvimento...!!!
 Coloquei um exemplo na branch POC-Book. Ainda não está completa, mas traz a primeira linha do book.
+## 03.1 Book Basico
+Tem mais um exemplo de como obter os dados do book de ofertas na pasta Book:
+link: https://github.com/andpena/FinancialData/blob/master/Book/BookInfo.py
