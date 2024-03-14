@@ -1,4 +1,4 @@
-﻿alabaster==0.7.12
+alabaster==0.7.12
 anaconda-client==1.7.2
 anaconda-navigator==1.9.7
 anaconda-project==0.8.2
@@ -43,7 +43,7 @@ entrypoints==0.3
 et-xmlfile==1.0.1
 fastcache==1.0.2
 filelock==3.0.10
-Flask==1.0.2
+Flask==2.3.2
 future==0.17.1
 gevent==1.4.0
 glob2==0.6
